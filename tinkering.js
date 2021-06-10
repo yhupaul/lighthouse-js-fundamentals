@@ -16,7 +16,7 @@ console.log(ASCII_value);*/
 for  (var i = 0; i < my_string.length; i++) {
   console.log(my_string.charCodeAt(i));
 }*/
-
+/*
 var eatsPlants = false;
 var eatsAnimals = true;
 var category;
@@ -30,4 +30,18 @@ if (eatsPlants === true && eatsAnimals === true) {
 } else if (eatsPlants === false && eatsAnimals === false) {
   category ="undefined";
 }
-console.log(catregory);
+console.log(catregory);*/
+
+var whichSchool;
+var age = 16
+  if (age >= 1 && age < 13) {
+    whichSchool = "Elementary School";
+  } else if (age>=13 && age<=18) {
+    whichSchool = "Secondary School";
+  } else if (age>=19) {
+    whichSchool = "Lighthouse Labs";
+  }
+ 
+ 
+ console.log(whichSchool);
+ 
